@@ -2,6 +2,8 @@
 
 The quickest way to create beautiful ascii headings
 
+![demo.gif](https://github.com/414owen/vim-headings/raw/master/demo.gif)
+
 ## Getting set up
 
 Important!
