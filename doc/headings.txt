@@ -32,23 +32,23 @@ MAPPINGS                                        *headings-mappings*
 No mappings are defined by default, however if you want to add
 some, here are mine:
 
-nmap <leader>h1 :call Header(1)<CR>
-nmap <leader>h2 :call Header(2)<CR>
-nmap <leader>h3 :call Header(3)<CR>
-nmap <leader>h4 :call Header(4)<CR>
-nmap <leader>h5 :call Header(5)<CR>
-nmap <leader>h6 :call Header(6)<CR>
-nmap <leader>h7 :call Header(7)<CR>
-nmap <leader>h8 :call Header(8)<CR>
-nmap <leader>h9 :call Header(9)<CR>
-nmap <leader>dh1 :call UnHeader(1)<CR>
-nmap <leader>dh2 :call UnHeader(2)<CR>
-nmap <leader>dh3 :call UnHeader(3)<CR>
-nmap <leader>dh4 :call UnHeader(4)<CR>
-nmap <leader>dh5 :call UnHeader(5)<CR>
-nmap <leader>dh6 :call UnHeader(6)<CR>
-nmap <leader>dh7 :call UnHeader(7)<CR>
-nmap <leader>dh8 :call UnHeader(8)<CR>
-nmap <leader>dh9 :call UnHeader(9)<CR>
+nmap <leader>h1 :call Heading(1)<CR>
+nmap <leader>h2 :call Heading(2)<CR>
+nmap <leader>h3 :call Heading(3)<CR>
+nmap <leader>h4 :call Heading(4)<CR>
+nmap <leader>h5 :call Heading(5)<CR>
+nmap <leader>h6 :call Heading(6)<CR>
+nmap <leader>h7 :call Heading(7)<CR>
+nmap <leader>h8 :call Heading(8)<CR>
+nmap <leader>h9 :call Heading(9)<CR>
+nmap <leader>dh1 :call UnHeading(1)<CR>
+nmap <leader>dh2 :call UnHeading(2)<CR>
+nmap <leader>dh3 :call UnHeading(3)<CR>
+nmap <leader>dh4 :call UnHeading(4)<CR>
+nmap <leader>dh5 :call UnHeading(5)<CR>
+nmap <leader>dh6 :call UnHeading(6)<CR>
+nmap <leader>dh7 :call UnHeading(7)<CR>
+nmap <leader>dh8 :call UnHeading(8)<CR>
+nmap <leader>dh9 :call UnHeading(9)<CR>
 
  vim:tw=78:et:ft=help:norl:
