@@ -8,8 +8,8 @@
 "                (like this)
 
 function! Heading(num)
-	execute "normal! V:s/^\\s*//g"
-	execute "normal! V:s/\\s*$//g"
+	execute "normal! V:s/^\\s*//g\<cr>"
+	execute "normal! V:s/\\s*$//g\<cr>"
 	execute "normal \<plug>NERDCommenterUncomment"
 	execute "normal! ".(a:num * 4 + 2)."A-\<esc>"
 	let i = a:num 
