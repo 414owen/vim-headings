@@ -1,6 +1,12 @@
-# headings.vim
-
-The quickest way to create beautiful ascii headings
+```
+--------------------------
+|                        |
+|                        |
+|      headings.vim      | <- The quickest way to do this
+|                        |
+|                        |
+--------------------------
+```
 
 ![demo.gif](https://github.com/414owen/vim-headings/raw/master/demo.gif)
 
