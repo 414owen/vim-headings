@@ -58,7 +58,7 @@ curl -fLo ~/.vim/doc/headings.txt --create-dirs \
 
 ### Commands
 
-headings.vim defines two functions: `Heading(size)` and `UnHeading(size)`.  You
+headings.vim defines two functions: `Heading(size)` and `UnHeading(size)`.  You  
 can use them with `call`, for example:
 
 ```
@@ -73,7 +73,7 @@ and
 
 ### Mappings
 
-No mappings are defined by default, but mappings are highly recommended. Here
+No mappings are defined by default, but mappings are highly recommended. Here  
 are mine:
 
 ```
@@ -97,4 +97,5 @@ nmap <leader>dh8 :call UnHeading(8)<CR>
 nmap <leader>dh9 :call UnHeading(9)<CR>
 ```
 
-I can then hover over a line of text and press `\h2` to get a heading of size two.
+I can then hover over a line of text and press `\h2`, `\h4` etc. to turn it  
+into a heading, and `\dh2`, `\dh4` etc. to delete an existing heading.
