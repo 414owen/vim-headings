@@ -1,3 +1,5 @@
+vim-headings
+
 function! Heading(num)
 	execute "normal \<plug>NERDCommenterUncomment"
 	execute "normal! ".(a:num * 4 + 2)."A-\<esc>"
