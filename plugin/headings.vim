@@ -1,4 +1,11 @@
-vim-headings
+" --------------------------
+" |                        |
+" |                        |
+" |      vim-headings      |
+" |                        |
+" |                        |
+" --------------------------
+"                (like this)
 
 function! Heading(num)
 	execute "normal \<plug>NERDCommenterUncomment"
