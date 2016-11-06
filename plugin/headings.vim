@@ -8,9 +8,9 @@
 "                (like this)
 
 function! Heading(num)
+	execute "normal \<plug>NERDCommenterUncomment"
 	execute "normal! V:s/^\\s*//g\<cr>"
 	execute "normal! V:s/\\s*$//g\<cr>"
-	execute "normal \<plug>NERDCommenterUncomment"
 	execute "normal! ".(a:num * 4 + 2)."A-\<esc>"
 	let i = a:num 
 	while i > 0
