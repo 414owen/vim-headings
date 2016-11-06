@@ -1,0 +1,18 @@
+--------------------------------
+|                              |
+|                              |
+|                              |
+|        *vim-headings*        |
+|                              |
+|                              |
+|                              |
+--------------------------------
+The quickest way to to that ^
+
+Author:  Owen Shepherd
+License: MIT
+
+INTRODUCTION                                    *vim-headings*
+
+Commands to turn lines into beautiful ascii headings
+
