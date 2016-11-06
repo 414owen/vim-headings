@@ -4,7 +4,7 @@ The quickest way to create beautiful ascii headings
 
 ![demo.gif](https://github.com/414owen/vim-headings/raw/master/demo.gif)
 
-## Getting set up
+## Installation
 
 Important!
 This plugin depends on [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
@@ -47,3 +47,48 @@ curl -fLo ~/.vim/plugin/headings.vim --create-dirs \
 curl -fLo ~/.vim/doc/headings.txt --create-dirs \
   https://raw.githubusercontent.com/414owen/vim-headings/master/doc/headings.txt
 ```
+
+## Usage
+
+### Commands
+
+headings.vim defines two functions: `Heading(size)` and `UnHeading(size)`.  You
+can use them with `call`, for example:
+
+```
+:call Heading(3)
+```
+
+and
+
+```
+:call UnHeading(3)
+```
+
+### Mappings
+
+No mappings are defined by default, but mappings are highly recommended. Here
+are mine:
+
+```
+nmap <leader>h1 :call Heading(1)<CR>
+nmap <leader>h2 :call Heading(2)<CR>
+nmap <leader>h3 :call Heading(3)<CR>
+nmap <leader>h4 :call Heading(4)<CR>
+nmap <leader>h5 :call Heading(5)<CR>
+nmap <leader>h6 :call Heading(6)<CR>
+nmap <leader>h7 :call Heading(7)<CR>
+nmap <leader>h8 :call Heading(8)<CR>
+nmap <leader>h9 :call Heading(9)<CR>
+nmap <leader>dh1 :call UnHeading(1)<CR>
+nmap <leader>dh2 :call UnHeading(2)<CR>
+nmap <leader>dh3 :call UnHeading(3)<CR>
+nmap <leader>dh4 :call UnHeading(4)<CR>
+nmap <leader>dh5 :call UnHeading(5)<CR>
+nmap <leader>dh6 :call UnHeading(6)<CR>
+nmap <leader>dh7 :call UnHeading(7)<CR>
+nmap <leader>dh8 :call UnHeading(8)<CR>
+nmap <leader>dh9 :call UnHeading(9)<CR>
+```
+
+I can then hover over a line of text and press `\h2` to get a heading of size two.
