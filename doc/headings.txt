@@ -1,4 +1,4 @@
-headings.txt		For  Vim version 7.3	Last change: 2016 November 6
+headings.txt        For  Vim version 7.3    Last change: 2016 November 6
 
 ------------------------------
 |                            |
@@ -19,37 +19,19 @@ INTRODUCTION                                    *headings.vim*
 
 The quickest way to turn lines into beautiful ascii headings
 
-COMMANDS										*headings-commands*
+COMMANDS                                        *headings-commands*
 
-:Heading(size)			Turn line of cursor into a heading, and comment the
-						heading
+:Heading(size)          Turn line of cursor into a heading, and comment the
+                        heading
 
-:UnHeading(size)		Turns the heading under the cursor back into a normal
-						line
+:UnHeading(size)        Turns the heading under the cursor back into a normal
+                        line
 
-MAPPINGS										*headings-mappings*
+MAPPINGS                                        *headings-mappings*
 
 No mappings are defined by default, however if you want to add
 some, here are mine:
 
-nmap <leader>h1 :call Header(1)<CR>
-nmap <leader>h2 :call Header(2)<CR>
-nmap <leader>h3 :call Header(3)<CR>
-nmap <leader>h4 :call Header(4)<CR>
-nmap <leader>h5 :call Header(5)<CR>
-nmap <leader>h6 :call Header(6)<CR>
-nmap <leader>h7 :call Header(7)<CR>
-nmap <leader>h8 :call Header(8)<CR>
-nmap <leader>h9 :call Header(9)<CR>
-nmap <leader>dh1 :call UnHeader(1)<CR>
-nmap <leader>dh2 :call UnHeader(2)<CR>
-nmap <leader>dh3 :call UnHeader(3)<CR>
-nmap <leader>dh4 :call UnHeader(4)<CR>
-nmap <leader>dh5 :call UnHeader(5)<CR>
-nmap <leader>dh6 :call UnHeader(6)<CR>
-nmap <leader>dh7 :call UnHeader(7)<CR>
-nmap <leader>dh8 :call UnHeader(8)<CR>
-nmap <leader>dh9 :call UnHeader(9)<CR>
 nmap <leader>h1 :call Header(1)<CR>
 nmap <leader>h2 :call Header(2)<CR>
 nmap <leader>h3 :call Header(3)<CR>
