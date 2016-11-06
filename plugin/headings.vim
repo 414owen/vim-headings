@@ -1,4 +1,4 @@
-function Header(num)
+function! Header(num)
 	execute "normal \<plug>NERDCommenterUncomment"
 	execute "normal! ".(a:num * 4 + 2)."A-\<esc>"
 	let i = a:num 
@@ -16,6 +16,6 @@ function Header(num)
 	execute "normal ".a:num."k".(a:num * 2 + 1)."\<plug>NERDCommenterComment".(a:num * 2 + 1)."j0"
 endfunction
 
-function UnHeader(num)
+function! UnHeader(num)
 	execute "normal! 02dw".a:num."k".a:num."ddj".a:num."ddk$v".(a:num * 2)."hd"
 endfunction
