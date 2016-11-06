@@ -1,62 +1,32 @@
-<!-- ----------------------------------   -->
-<!-- |                                |   -->
-<!-- |                                |   -->
-<!-- |                                |   -->
-<!-- |                                |   -->
-<!-- |          headings.vim          |   -->
-<!-- |                                |   -->
-<!-- |                                |   -->
-<!-- |                                |   -->
-<!-- |                                |   -->
-<!-- ----------------------------------   -->
+# headings.vim
 
 The quickest way to do that ^
 
-<!-- ----------------------------   -->
-<!-- |                          |   -->
-<!-- |                          |   -->
-<!-- |      Getting set up      |   -->
-<!-- |                          |   -->
-<!-- |                          |   -->
-<!-- ----------------------------   -->
+## Getting set up
 
 Important!
 This plugin depends on [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 
+### Via Plugin Manager (Recommended)
 
-------------------------------------------  
-|                                        |  
-|    Via Plugin Manager (Recommended)    |  
-|                                        |  
-------------------------------------------  
-
---------------  
-|  Vim-Plug  |    [Vim-Plug](https://github.com/junegunn/vim-plug)
---------------  
-
+#### [Vim-Plug](https://github.com/junegunn/vim-plug)
 1. Add `Plug '414owen/vim-headings'` to your vimrc file.
 2. Reload your vimrc or restart
 3. Run `:PlugInstall`
 
-------------  
-|  Vundle  |    [Vundle](https://github.com/VundleVim/Vundle.vim) or similar
-------------  
+#### [Vundle](https://github.com/VundleVim/Vundle.vim) or similar
 
 1. Add `Plugin '414owen/vim-headings'` to your vimrc file.
 2. Reload your vimrc or restart
 3. Run `:BundleInstall`
 
----------------  
-|  NeoBundle  |    [NeoBundle](https://github.com/Shougo/neobundle.vim)
----------------  
+#### [NeoBundle](https://github.com/Shougo/neobundle.vim)
 
 1. Add `NeoBundle '414owen/vim-headings'` to your vimrc file.
 2. Reload your vimrc or restart
 3. Run `:NeoUpdate`
 
---------------  
-|  Pathogen  |    [Pathogen](https://github.com/tpope/vim-pathogen)
---------------  
+#### [Pathogen](https://github.com/tpope/vim-pathogen)
 
 ```sh
 cd ~/.vim/bundle
