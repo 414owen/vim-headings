@@ -8,7 +8,7 @@
 --------------------------
 ```
 
-![demo.gif](https://github.com/414owen/vim-headings/raw/master/demo.gif)
+![demo.gif](http://owenowen.netsoc.ie/projects/vim-headings/demo.gif)
 
 ## Installation
 
