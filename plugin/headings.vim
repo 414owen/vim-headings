@@ -21,5 +21,5 @@ endfunction
 function! UnHeader(num)
 	execute "normal! ".a:num."k"
 	execute "normal ".(a:num * 2 + 1)."\<plug>NERDCommenterUncomment"
-	execute "normal! 0dw".a:num."k".a:num."ddj".a:num."ddk$v".(a:num * 2)."hd"
+	execute "normal! ".a:num."ddj".a:num."ddk0dw$v".(a:num * 2)."hd"
 endfunction
