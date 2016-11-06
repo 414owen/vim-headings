@@ -4,17 +4,18 @@ headings.txt		For  Vim version 7.3	Last change: 2016 November 6
 |                            |
 |                            |
 |                            |
-|        *vim-headings*        |
+|        *headings.vim*        |
 |                            |
 |                            |
 |                            |
 ------------------------------
+
 The quickest way to make a pretty heading (like the one above)
 
 Author:  Owen Shepherd
 License: MIT
 
-INTRODUCTION                                    *vim-headings*
+INTRODUCTION                                    *headings.vim*
 
 The quickest way to turn lines into beautiful ascii headings
 
