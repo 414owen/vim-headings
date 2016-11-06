@@ -1,6 +1,6 @@
 # headings.vim
 
-The quickest way to do that ^
+The quickest way to create beautiful ascii headings
 
 ## Getting set up
 
